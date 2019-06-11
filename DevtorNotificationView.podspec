@@ -4,15 +4,15 @@ Pod::Spec.new do |s|
   s.summary          = 'To display in-app notification message'
  
   s.description      = <<-DESC
-To display in-app notification message
+To display in-app notification message, it is Awesome!
                        DESC
  
-  s.homepage         = 'https://github.com/imfeemily/FantasticView'
+  s.homepage         = 'https://github.com/imfeemily/DevtorNotificationView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Devtor' => 'ifeemily@gmail.com' }
-  s.source           = { :git => 'https://github.com/imfeemily/FantasticView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/imfeemily/DevtorNotification.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'DevtorNotification/*.{swift,plist}'
+  s.source_files = 'DevtorNotification/*.swift'
  
 end
