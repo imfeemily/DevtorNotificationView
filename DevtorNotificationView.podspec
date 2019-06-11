@@ -13,6 +13,6 @@ To display in-app notification message, it is Awesome!
   s.source           = { :git => 'https://github.com/imfeemily/DevtorNotificationView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'DevtorNotification/*.swift'
+  s.source_files = 'DevtorNotification/*.{swift,plist}'
  
 end

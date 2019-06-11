@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let devtorView = DevtorNotificationView(frame: self.view.bounds)
-        self.view.addSubview(devtorView)
     }
 
 

@@ -31,5 +31,13 @@ class DevtorNotificationView: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
+        let scheduledColorChanged = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { (timer) in
+            UIView.animate(withDuration: 2.0) {
+                self.layer.backgroundColor = self.colors[self.colorCounter % 6].cgColor
+                self.colorCounter+=1
+            }
+        }
+        scheduledColorChanged.fire()
     }
 }
