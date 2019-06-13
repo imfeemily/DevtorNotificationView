@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0F287422B2476B00899DB5 /* DevtorNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F287322B2476B00899DB5 /* DevtorNotificationView.xib */; };
+		4F0F287622B249BD00899DB5 /* MyAnimateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F287522B249BD00899DB5 /* MyAnimateExtension.swift */; };
+		4F0F287822B249D000899DB5 /* MyColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F287722B249D000899DB5 /* MyColorExtension.swift */; };
 		4F1D9A5822AFA87C0087D940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D9A5722AFA87C0087D940 /* AppDelegate.swift */; };
 		4F1D9A5A22AFA87C0087D940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D9A5922AFA87C0087D940 /* ViewController.swift */; };
 		4F1D9A5D22AFA87C0087D940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D9A5B22AFA87C0087D940 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0F287322B2476B00899DB5 /* DevtorNotificationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DevtorNotificationView.xib; sourceTree = "<group>"; };
+		4F0F287522B249BD00899DB5 /* MyAnimateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAnimateExtension.swift; sourceTree = "<group>"; };
+		4F0F287722B249D000899DB5 /* MyColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorExtension.swift; sourceTree = "<group>"; };
 		4F1D9A5422AFA87C0087D940 /* DevtorNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevtorNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1D9A5722AFA87C0087D940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1D9A5922AFA87C0087D940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +65,13 @@
 				4F1D9A5722AFA87C0087D940 /* AppDelegate.swift */,
 				4F1D9A5922AFA87C0087D940 /* ViewController.swift */,
 				4F1D9A6922AFA9080087D940 /* DevtorNotificationView.swift */,
+				4F0F287322B2476B00899DB5 /* DevtorNotificationView.xib */,
 				4F1D9A5B22AFA87C0087D940 /* Main.storyboard */,
 				4F1D9A5E22AFA87D0087D940 /* Assets.xcassets */,
 				4F1D9A6022AFA87D0087D940 /* LaunchScreen.storyboard */,
 				4F1D9A6322AFA87D0087D940 /* Info.plist */,
+				4F0F287522B249BD00899DB5 /* MyAnimateExtension.swift */,
+				4F0F287722B249D000899DB5 /* MyColorExtension.swift */,
 			);
 			path = DevtorNotification;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1D9A6222AFA87D0087D940 /* LaunchScreen.storyboard in Resources */,
+				4F0F287422B2476B00899DB5 /* DevtorNotificationView.xib in Resources */,
 				4F1D9A5F22AFA87D0087D940 /* Assets.xcassets in Resources */,
 				4F1D9A5D22AFA87C0087D940 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1D9A5A22AFA87C0087D940 /* ViewController.swift in Sources */,
+				4F0F287822B249D000899DB5 /* MyColorExtension.swift in Sources */,
+				4F0F287622B249BD00899DB5 /* MyAnimateExtension.swift in Sources */,
 				4F1D9A5822AFA87C0087D940 /* AppDelegate.swift in Sources */,
 				4F1D9A6A22AFA9080087D940 /* DevtorNotificationView.swift in Sources */,
 			);
