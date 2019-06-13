@@ -14,6 +14,6 @@ To display in-app notification message, it is Awesome!
  
   s.ios.deployment_target = '10.0'
   s.source_files = 'DevtorNotification/*'
-  swift_version = s.swift_version.to_s
+  s.swift_version = s.swift_version.to_s
  
 end
